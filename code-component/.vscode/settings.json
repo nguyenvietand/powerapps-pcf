@@ -1,0 +1,11 @@
+{
+    "cSpell.words": [
+        "Picklist",
+        "powerdnd",
+        "sonarjs",
+        "sortablejs",
+        "Unchoose"
+    ],
+    "jest.coverageFormatter": "DefaultFormatter",
+    "jest.showCoverageOnLoad": false
+}
