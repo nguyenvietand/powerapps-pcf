@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <manifest>
-  <control namespace="CustomControl" constructor="PowerDragDrop" version="1.0.32" display-name-key="PowerDragDrop" description-key="PowerDragDrop_Desc" control-type="standard">
+  <control namespace="CustomControl" constructor="DragDrop" version="1.0.32" display-name-key="DragDrop" description-key="DragDrop_Desc" control-type="standard">
     <!--external-service-usage node declares whether this 3rd party PCF control is using external service or not, if yes, this control will be considered as premium and please also add the external domain it is using.-->
     <external-service-usage enabled="false"></external-service-usage>
     <property name="DropZoneID" description-key="DropZoneID_Desc" display-name-key="DropZoneID" required="true" usage="input" of-type="SingleLine.Text"/>
@@ -99,8 +99,8 @@
 
     <resources>
       <code path="index.ts" order="1" />
-      <css path="css/PowerDragDrop.css" order="1" />
-      <resx path="strings/PowerDragDrop.1033.resx" version="1.0.0" />
+      <css path="css/DragDrop.css" order="1" />
+      <resx path="strings/DragDrop.1033.resx" version="1.0.0" />
     </resources>
   </control>
 </manifest>

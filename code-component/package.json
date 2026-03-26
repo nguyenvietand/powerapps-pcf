@@ -1,14 +1,14 @@
 {
-  "name": "power-drag-drop",
+  "name": "powerapps-pcf",
   "version": "1.0.0",
-  "description": "PowerDragDrop PCF Control",
+  "description": "DragDrop PCF Control",
   "scripts": {
     "build": "pcf-scripts build",
     "clean": "pcf-scripts clean",
     "rebuild": "pcf-scripts rebuild",
     "start": "pcf-scripts start",
     "refreshTypes": "pcf-scripts refreshTypes",
-    "lint": "eslint PowerDragDrop --ext .ts,.tsx",
+    "lint": "eslint DragDrop --ext .ts,.tsx",
     "lint:fix": "npm run lint -- --fix",
     "test": "jest --collectCoverage"
   },

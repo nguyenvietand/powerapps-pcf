@@ -55,7 +55,7 @@ const defaultSortableOptions: Sortable.Options = {
     dataIdAttr: RECORD_ID_ATTRIBUTE,
 };
 
-export class PowerDragDrop implements ComponentFramework.StandardControl<IInputs, IOutputs> {
+export class DragDrop implements ComponentFramework.StandardControl<IInputs, IOutputs> {
     private context: ContextExtended<IInputs>;
     private notifyOutputChanged: () => void;
     private zonesRegistered: Record<string, RegisteredZone> = {};
@@ -598,7 +598,7 @@ export class PowerDragDrop implements ComponentFramework.StandardControl<IInputs
 
     private trace(message: string, ...data: unknown[]) {
         if (this.context.parameters.Trace?.raw === true) {
-            console.debug('PowerDragDrop:', message, data);
+            console.debug('DragDrop:', message, data);
         }
     }
 

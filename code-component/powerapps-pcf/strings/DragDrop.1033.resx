@@ -62,10 +62,10 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
 
-  <data name="PowerDragDrop" xml:space="preserve">
+  <data name="DragDrop" xml:space="preserve">
     <value>Power Drag Drop (%VERSION%)</value>
   </data>
-  <data name="PowerDragDrop_Desc" xml:space="preserve">
+  <data name="DragDrop_Desc" xml:space="preserve">
     <value>Drag And Drop Zone</value>
   </data>
   <data name="DropZoneID_Desc" xml:space="preserve">

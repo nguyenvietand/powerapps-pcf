@@ -6,7 +6,7 @@ versionStamp({
     minorVersion: 1,
     buildVersion: 2,
     manifestsPaths: [
-        `${workspacePath}/code-component/PowerDragDrop`
+        `${workspacePath}/code-component/DragDrop`
     ],
     solutionPaths: `${workspacePath}/Solution/src/Other/Solution.xml`
 });
